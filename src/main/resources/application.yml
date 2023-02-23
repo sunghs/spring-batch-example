@@ -15,7 +15,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     # write mysql datasource
-    url: jdbc:mysql://13.124.166.250:53015/batch
+    url: jdbc:mysql://localhost:3306/batch
     username: sunghs
     password: 1234
     hikari:
@@ -23,6 +23,7 @@ spring:
       maximum-pool-size: 30
       max-lifetime: 30000
       connection-init-sql: select 1 from dual
+
   data:
     jpa:
       repositories:
