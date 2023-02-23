@@ -1,0 +1,66 @@
+CREATE TABLE IF NOT EXISTS batch.example (
+	ID BIGINT NOT NULL AUTO_INCREMENT,
+	DATA VARCHAR(200),
+	PRIMARY KEY(ID)
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());
+INSERT INTO example(DATA) VALUES (rand());

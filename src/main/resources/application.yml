@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: local
+
+  batch:
+    jdbc:
+      initialize-schema: always
+      platform: mysql
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # write mysql datasource
+    url: jdbc:mysql://13.124.166.250:53015/batch
+    username: sunghs
+    password: 1234
+    hikari:
+      minimum-idle: 30
+      maximum-pool-size: 30
+      max-lifetime: 30000
+      connection-init-sql: select 1 from dual
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: default
+
